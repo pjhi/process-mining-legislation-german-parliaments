@@ -12,7 +12,7 @@ Note that some of the documentation services provide new raw data on a daily bas
 - `OriginalData/` – Raw XML exports as obtained from the documentation services of the three parliaments, one subfolder per state.
 - `EventLogGenerators/` – Notebooks to generate `.xes` event logs from `OriginalData/`, either covering all process types or a single selected type.
 - `all-data-xes/` – Generated event logs in `.xes` format (git-ignored; regenerate via `EventLogGenerators/`, or restore from `EventLogs/`). These logs cover all process types and are filtered down for specific analyses further along the pipeline.
-- `EventLogs/` – Zipped copies of the `all-data-xes/` event logs, for direct download without having to rerun the generators. **To download the correct zip files through GitHub, click on the file and then on "raw".**
+- `EventLogs/` – Zipped copies of the `all-data-xes/` event logs, for direct download without having to rerun the generators. Stored via **Git LFS** (see [Requirements](#requirements)); **to download an individual zip file through GitHub without Git LFS, click on the file and then on "Download raw file".**
 - `BaselineAnalysis/` – Baseline cross-organizational process mining analysis (performance measures, process type exploration).
   - `LawmakingAnalysis/` – Baseline analysis specifically about cycle-time differences and outcome/rule induction for lawmaking traces.
 - `AdvancedAnalysis/` – Generation of in-data and out-of-data political context features (including Wahl-O-Mat agreement scores and topic embeddings) and the subsequent enrichment/classification analyses. See [AdvancedAnalysis pipeline](#advancedanalysis-pipeline) below.
@@ -22,6 +22,8 @@ Note that some of the documentation services provide new raw data on a daily bas
 ## Requirements
 
 See `requirements.txt`. The code was only run with Python 3; Python 2 compatibility is not guaranteed.
+
+This repository uses [Git LFS](https://git-lfs.com/) to store the large `.zip` files under `EventLogs/` and `AdvancedAnalysis/data-csv/`. Install Git LFS (`git lfs install`) **before** cloning, then clone as usual — Git LFS will transparently download the actual file contents in place of pointer files. If you already cloned without Git LFS installed, install it and run `git lfs pull` from within the repository to fetch the real files. Alternatively, you can download individual files directly from GitHub's web UI by opening the file and clicking "Download raw file", without needing Git LFS locally.
 
 ## Usage / Reproducing Results
 
@@ -41,7 +43,7 @@ See `requirements.txt`. The code was only run with Python 3; Python 2 compatibil
 
 ## AdvancedAnalysis Pipeline
 
-`AdvancedAnalysis/` runs largely independently of the baseline analysis, seeded from `data-start/` (pre-filtered Gesetzentwurf event logs per state) and the bundled Wahl-O-Mat dataset in `2025-03-26_Wahl-O-Mat-Datensaetze/`. Run the numbered notebooks in order:
+`AdvancedAnalysis/` runs largely independently of the baseline analysis, seeded from `data-start/` (pre-filtered Gesetzentwurf event logs per state) and the bundled Wahl-O-Mat dataset in `2025-03-26_Wahl-O-Mat-Datensaetze/`. Run the numbered notebooks in order. Note that the pre-generated `data-csv/*-with-embeddings-allTime.csv.zip` files are also stored via Git LFS (see [Requirements](#requirements)).
 
 | Notebook                                                                 | Reads                                                     | Writes                                                                   |
 | ------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
