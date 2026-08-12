@@ -1,0 +1,39 @@
+statement_number,title,these,government,opposition,all
+1,Kauf von Wohnungen ,Das Land Berlin soll weitere Wohnungen von privaten Wohnungsunternehmen kaufen. ,1.0,0.33333333333333337,0.4666666666666667
+2,A100 ,Die Autobahn A100 soll wie geplant weiter ausgebaut werden.,0.6666666666666667,1.0,0.43333333333333335
+3,Außengastronomie ,In Berlin soll Außengastronomie dauerhaft gebührenfrei auf öffentlichen Wegen und Plätzen betrieben werden dürfen.,0.6666666666666667,0.33333333333333337,0.43333333333333335
+4,Pop-up-Radwege ,In Berlin sollen weitere temporäre Radfahrspuren („Pop-up-Radwege“) geschaffen werden.,0.6666666666666667,1.0,0.43333333333333335
+5,Obdachlose ,Das Campieren von Obdachlosen an zentralen öffentlichen Orten soll unterbunden werden.,0.33333333333333337,1.0,0.4666666666666667
+6,Geschlechtliche Vielfalt ,An allen Schulen des Landes soll geschlechtliche Vielfalt im Unterricht thematisiert werden.,1.0,0.33333333333333337,0.5666666666666667
+7,Freier Eintritt in Museen ,In Berlin soll der Eintritt zu den staatlichen Museen für alle Berlinerinnen und Berliner frei sein. ,0.6666666666666667,1.0,0.43333333333333335
+8,Fossile Brennstoffe in der Fernwärme ,"Berlin soll Energieversorger verpflichten, den Anteil fossiler Brennstoffe in der Fernwärmeversorgung zu reduzieren.",1.0,0.33333333333333337,0.5666666666666667
+9,Deutschkurse ,Alle Zugewanderten sollen Zugang zu gebührenfreien Deutschkursen haben.,1.0,0.33333333333333337,0.6666666666666667
+10,Militärische Forschung ,An Berliner Hochschulen soll für militärische Zwecke geforscht werden dürfen. ,1.0,1.0,0.4
+11,Verbeamtung von Lehrern ,In Berlin sollen Lehrerinnen und Lehrer wieder verbeamtet werden können.,0.33333333333333337,0.33333333333333337,0.43333333333333335
+12,Wahlrecht zur Bezirksverordnetenversammlung,Bei den Wahlen zu den Bezirksverordnetenversammlungen sollten weiterhin nur Deutsche und Staatsangehörige von EU-Staaten wählen dürfen.,1.0,1.0,0.4
+13,Krankenhäuser ,Alle Berliner Krankenhäuser sollen in öffentlicher Hand sein.,0.33333333333333337,1.0,0.6666666666666667
+14,Lärmschutz von Clubs ,Berlin soll weiterhin Lärmschutzmaßnahmen von Clubs finanziell fördern.,1.0,1.0,1.0
+15,Verpflichtendes Kita-Jahr ,Das letzte Kita-Jahr vor der Einschulung soll in Berlin verpflichtend sein.,0.33333333333333337,0.33333333333333337,0.4
+16,Migrationsmuseum ,In Berlin soll ein Landesmuseum zur Migrationsgeschichte eingerichtet werden.,1.0,1.0,0.4
+17,Private Unternehmen an Hochschulen ,Berliner Hochschulen sollen stärker mit privaten Unternehmen zusammenarbeiten. ,0.33333333333333337,1.0,0.6666666666666667
+18,Frauen und Männer auf Wahllisten ,Die Parteien sollen ihre Listen für die Wahl zum Berliner Abgeordnetenhaus abwechselnd mit Frauen und Männern besetzen müssen. ,1.0,1.0,0.4
+19,Entgeltfreier ÖPNV ,In Berlin soll die Nutzung des öffentlichen Personennahverkehrs entgeltfrei sein.,0.33333333333333337,1.0,0.4666666666666667
+20,Schuldenbremse ,Berlin soll die gesetzliche Begrenzung der Neuverschuldung („Schuldenbremse“) weiterhin einhalten. ,0.6666666666666667,1.0,0.5333333333333333
+21,Schwerpunktschulen ,"In Berlin soll es mehr inklusive Schwerpunktschulen geben, in denen Kinder mit und ohne Behinderung gemeinsam unterrichtet werden. ",1.0,0.33333333333333337,0.6666666666666667
+22,Rückgabe kolonialer Kulturgüter ,Die Staatlichen Museen zu Berlin sollen in der Kolonialzeit geraubte Kulturgüter an die Herkunftsländer zurückgeben.,1.0,0.33333333333333337,0.6666666666666667
+23,Frauenquote ,In Führungspositionen von landeseigenen Betrieben soll es eine verbindliche Frauenquote geben. ,1.0,1.0,0.4
+24,Personenkontrollen ,Die Berliner Polizei soll weiterhin verdachtsunabhängige Personenkontrollen durchführen dürfen. ,0.33333333333333337,0.33333333333333337,0.4
+25,Erziehergehalt ,Erzieherinnen und Erzieher an Grundschulen sollen das gleiche Gehalt wie Lehrerinnen und Lehrer erhalten. ,0.33333333333333337,1.0,0.6666666666666667
+26,Haushalt der Bezirke ,Die Berliner Bezirke sollen über ihre Haushaltsausgaben eigenständig bestimmen können. ,0.6666666666666667,0.33333333333333337,0.43333333333333335
+27,Sinti und Roma ,Kultur und Sprache der deutschen Sinti und Roma sollen finanziell stärker durch das Land gefördert werden.,1.0,0.6666666666666667,0.43333333333333335
+28,Bundeswehr an Schulen ,Es sollen weiterhin Informationsveranstaltungen der Bundeswehr an Berliner Schulen stattfinden dürfen. ,0.33333333333333337,1.0,0.6666666666666667
+29,Arbeitslosengeld II ,"Empfängern und Empfängerinnen von Arbeitslosengeld II („Hartz IV“) sollen weiterhin Leistungen gekürzt werden, wenn sie Jobangebote ablehnen.  ",1.0,1.0,0.4
+30,Untersuchungsausschuss ,Ein Untersuchungsausschuss des Abgeordnetenhauses soll die Ermittlungsarbeiten zur Anschlagsserie in Neukölln untersuchen.,1.0,0.6666666666666667,0.43333333333333335
+31,Familienbild ,"In Berliner Kitas und Schulen soll vorrangig das traditionelle Familienbild - Vater, Mutter, Kinder - vermittelt werden. ",1.0,0.33333333333333337,0.5666666666666667
+32,Gesichtserkennung ,Bei der Videoüberwachung öffentlicher Plätze in Berlin soll eine Software zur Gesichtserkennung eingesetzt werden dürfen. ,1.0,0.33333333333333337,0.6666666666666667
+33,Klimaneutralität ,Berlin soll bis spätestens 2035 klimaneutral sein.,0.6666666666666667,1.0,0.43333333333333335
+34,Kopftuch von Lehrerinnen ,Lehrerinnen an Schulen des Landes Berlin soll das Tragen eines Kopftuchs untersagt werden können.,0.33333333333333337,0.6666666666666667,0.43333333333333335
+35,Wahlalter ab 16 ,Bei Wahlen zum Abgeordnetenhaus sollen Jugendliche ab 16 Jahren wählen dürfen. ,1.0,0.33333333333333337,0.4666666666666667
+36,Alkoholwerbung ,Auf landeseigenen Werbeflächen sollen keine Alkoholprodukte mehr beworben werden dürfen. ,1.0,1.0,0.4
+37,Projekte gegen Antisemitismus ,Berlin soll weiterhin Projekte gegen Antisemitismus fördern.,1.0,1.0,1.0
+38,Ladenöffnungszeiten ,Alle Geschäfte in Berlin sollen sonntags öffnen dürfen. ,1.0,0.33333333333333337,0.5666666666666667

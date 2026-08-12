@@ -1,0 +1,33 @@
+# Install with: pip install -r requirements.txt
+
+# Notebook execution
+jupyter
+ipython==9.3.0
+ipykernel==6.29.5
+
+# Data wrangling / stats
+pandas==2.3.0
+numpy==2.2.6
+scipy==1.15.3
+openpyxl==3.1.5        # required by pandas to read the Wahl-O-Mat .xlsx dataset
+
+# Process mining
+pm4py==2.7.15.3
+
+# Plotting
+matplotlib==3.10.8
+matplotlib-inline==0.1.7
+seaborn==0.13.2
+plotly==6.5.2
+
+# Machine learning / rule induction
+scikit-learn==1.7.1
+rulelearn==0.1.2
+
+# Embeddings / LLM client (OpenAI-compatible API)
+openai==2.15.0
+
+# Parsing raw parliament data and fetching/reading law-draft PDFs
+xmltodict==0.14.2
+requests==2.32.4
+PyPDF2==3.0.1

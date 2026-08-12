@@ -1,0 +1,39 @@
+statement_number,title,these,government,opposition,all
+1,Klimaneutralität,Berlin soll bis spätestens 2030 klimaneutral sein.,1.0,0.33333333333333337,0.5
+2,Militärische Forschung,An Berliner Hochschulen soll für militärische Zwecke geforscht werden dürfen.,0.0,0.33333333333333337,0.4
+3,Krankenhäuser,Alle Berliner Krankenhäuser sollen in öffentlicher Hand sein.,1.0,0.33333333333333337,0.6
+4,Obdachlose,Das Campieren von Obdachlosen an zentralen öffentlichen Orten soll unterbunden werden.,0.0,0.33333333333333337,0.4
+5,Abstellen von Elektro-Scootern,Miet-Elektro-Scooter sollen in Berlin ausschließlich auf ausgewiesenen Abstellflächen geparkt werden dürfen.,1.0,0.33333333333333337,0.6
+6,Silvesterfeuerwerk,Das Zünden von privatem Silvesterfeuerwerk soll in der ganzen Stadt erlaubt sein.,0.0,0.33333333333333337,0.4
+7,Erziehergehalt,Erzieherinnen und Erzieher an Grundschulen sollen das gleiche Gehalt wie Lehrerinnen und Lehrer erhalten.,0.5,0.33333333333333337,0.5
+8,Wahlrecht zur Bezirksverordnetenversammlung,Bei den Wahlen zu den Bezirksverordnetenversammlungen sollen weiterhin nur Deutsche und Staatsangehörige von EU-Staaten wählen dürfen.,0.0,0.33333333333333337,0.4
+9,Entgeltfreier ÖPNV,In Berlin soll die Nutzung des öffentlichen Personennahverkehrs entgeltfrei sein.,1.0,0.33333333333333337,0.4
+10,Schulnoten,An Berliner Grundschulen sollen ab der ersten Klasse Schulnoten vergeben werden müssen.,1.0,0.33333333333333337,0.6
+11,Reduzierung der Hörfunk-Programme des RBB,Der Rundfunk Berlin-Brandenburg (RBB) soll die Anzahl seiner Hörfunk-Programme reduzieren.,0.0,0.33333333333333337,0.4
+12,Aufnahme von Flüchtlingen,Berlin soll weitere Flüchtlinge aufnehmen.,1.0,1.0,1.0
+13,Private Unternehmen und Hochschulen,Berliner Hochschulen sollen stärker mit privaten Unternehmen zusammenarbeiten.,1.0,0.33333333333333337,0.6
+14,Verkehrsinfrastruktur,Beim Ausbau der Berliner Verkehrsinfrastruktur soll Rad- und Fußverkehr Vorrang vor dem Autoverkehr haben.,0.0,0.33333333333333337,0.4
+15,Frauenquote,Für Führungspositionen von landeseigenen Betrieben soll es eine verbindliche Frauenquote geben.,0.0,0.33333333333333337,0.4
+16,Bürgergeld,"Empfängerinnen und Empfängern von Bürgergeld sollen vom ersten Tag an Leistungen gekürzt werden können, wenn sie Jobangebote ablehnen.",0.0,0.33333333333333337,0.4
+17,Tiere im Zirkus,Zirkusse mit Tieren im Programm sollen keine landeseigenen Flächen nutzen dürfen.,0.0,0.33333333333333337,0.4
+18,Grunderwerbsteuer,Beim Kauf von Wohneigentum für die eigene Nutzung soll die Grunderwerbsteuer gesenkt werden.,0.0,0.33333333333333337,0.4
+19,Unisex-Toiletten,"In jedem öffentlichen Gebäude des Landes soll es mindestens eine Unisex-Toilette geben, die unabhängig vom jeweiligen Geschlecht benutzt werden darf.",0.0,0.6666666666666667,0.5
+20,Fachkräfte aus dem Ausland,Berlin soll weiterhin Fachkräfte aus dem Ausland anwerben.,1.0,1.0,1.0
+21,Friedrichstraße,Die Friedrichstraße soll dauerhaft für den Autoverkehr freigegeben sein.,0.5,0.33333333333333337,0.5
+22,Familienbild,"In Berliner Kitas und Schulen soll vorrangig das traditionelle Familienbild - Vater, Mutter, Kinder - vermittelt werden.",0.5,1.0,0.8
+23,Genießbare Lebensmittel,"Berlin soll sich dafür einsetzen, dass es Supermärkten verboten wird, genießbare Lebensmittel wegzuwerfen.",0.0,0.33333333333333337,0.4
+24,Förderschulen,Förderschulen für Kinder mit Behinderung sollen in Berlin dauerhaft erhalten werden.,1.0,0.33333333333333337,0.6
+25,Kauf von GASAG-Anteilen,Der Senat soll Anteile am Berliner Gas- und Stromunternehmen GASAG kaufen.,0.0,0.33333333333333337,0.4
+26,Personenkontrollen,Die Berliner Polizei soll weiterhin verdachtsunabhängige Personenkontrollen durchführen dürfen.,1.0,1.0,0.4
+27,Verpflichtendes Kita-Jahr,Das letzte Kita-Jahr vor der Einschulung soll in Berlin verpflichtend sein.,1.0,0.33333333333333337,0.4
+28,Schuldenbremse,Berlin soll die gesetzliche Begrenzung der Neuverschuldung („Schuldenbremse“) weiterhin einhalten.,0.5,0.33333333333333337,0.4
+29,Kopftuch von Lehrerinnen,Lehrerinnen an Schulen des Landes Berlin soll das Tragen eines Kopftuchs untersagt werden können.,0.5,0.33333333333333337,0.4
+30,Wahlalter ab 16,Bei Wahlen zum Abgeordnetenhaus sollen Jugendliche ab 16 Jahren wählen dürfen.,0.0,1.0,0.6
+31,Kompetenzen des Senats,Der Berliner Senat soll gegenüber den Bezirken mehr Kompetenzen erhalten.,0.5,0.6666666666666667,0.7
+32,Sinti und Roma,Kultur und Sprache der deutschen Sinti und Roma sollen finanziell stärker durch das Land gefördert werden.,0.0,0.6666666666666667,0.5
+33,Bodycams,"Die Berliner Polizei soll weiterhin Körperkameras („Bodycams"") einsetzen dürfen.",1.0,0.6666666666666667,0.8
+34,Ladenöffnungszeiten,Alle Geschäfte in Berlin sollen sonntags öffnen dürfen.,1.0,0.33333333333333337,0.6
+35,Menschen mit Migrationshintergrund,Für Einstellungen im öffentlichen Dienst des Landes Berlin soll es eine verbindliche Quote für Menschen mit Migrationshintergrund geben.,1.0,0.33333333333333337,0.4
+36,Lockerung der Sanktionen gegen Russland,"Das Land Berlin soll sich dafür einsetzen, dass die Sanktionen gegen Russland gelockert werden.",1.0,1.0,1.0
+37,A100,Die Autobahn A100 soll wie geplant weiter ausgebaut werden.,0.5,0.33333333333333337,0.4
+38,Enteignung,Das Land Berlin soll private Wohnungsunternehmen gegen eine Entschädigung enteignen.,0.5,0.33333333333333337,0.4

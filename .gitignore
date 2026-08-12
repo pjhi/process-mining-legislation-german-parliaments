@@ -1,0 +1,12 @@
+/weiteres
+/all-data-xes
+.idea
+.ipynb_checkpoints
+
+# Generated per-case embeddings CSVs (0.9-1.3 GB each; exceed GitHub's file size limit).
+# Regenerate via AdvancedAnalysis/1-generate-event-logs-with-gesetzentwurf-topic-embeddings.ipynb,
+# or download the precomputed zips from this repo's Releases page (see README).
+AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv
+AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv.zip
+
+.DS_Store
