@@ -7,6 +7,6 @@
 # Regenerate via AdvancedAnalysis/1-generate-event-logs-with-gesetzentwurf-topic-embeddings.ipynb,
 # or download the precomputed zips from this repo's Releases page (see README).
 AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv
-AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv.zip
+#AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv.zip
 
 .DS_Store
