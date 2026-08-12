@@ -7,12 +7,14 @@ This repository provides all implementations and data collected and generated to
 
 Note that some of the documentation services provide new raw data on a daily basis; the code in this repository can be used to regenerate event logs from newer raw data as it becomes available.
 
+> **Note on the anonymous repository:** This anonymized mirror is served through Anonymous GitHub, which does not resolve Git LFS objects. The LFS-tracked archives — the event logs under `EventLogs/` and the pre-generated `AdvancedAnalysis/data-csv/*-with-embeddings-allTime.csv.zip` files — appear in the file listing but resolve to pointer files rather than the actual data. Everything else, including the raw XML in `OriginalData/` and the pre-filtered logs in `AdvancedAnalysis/data-start/`, is available as usual, so all affected artifacts can be regenerated with the notebooks described below (`EventLogGenerators/` for the event logs, `AdvancedAnalysis/0-…` and `1-…` for the agreement scores and embeddings). The complete data will be available in the non-anonymous repository accompanying the final version of the paper.
+
 ## Repository Structure
 
 - `OriginalData/` – Raw XML exports as obtained from the documentation services of the three parliaments, one subfolder per state.
 - `EventLogGenerators/` – Notebooks to generate `.xes` event logs from `OriginalData/`, either covering all process types or a single selected type.
 - `all-data-xes/` – Generated event logs in `.xes` format (git-ignored; regenerate via `EventLogGenerators/`, or restore from `EventLogs/`). These logs cover all process types and are filtered down for specific analyses further along the pipeline.
-- `EventLogs/` – Zipped copies of the `all-data-xes/` event logs, for direct download without having to rerun the generators. Stored via **Git LFS** (see [Requirements](#requirements)); **to download an individual zip file through GitHub without Git LFS, click on the file and then on "Download raw file".**
+- `EventLogs/` – Zipped copies of the `all-data-xes/` event logs, for direct download without having to rerun the generators. **Not retrievable through the anonymous mirror** (see the note above); regenerate them via `EventLogGenerators/` instead.
 - `BaselineAnalysis/` – Baseline cross-organizational process mining analysis (performance measures, process type exploration).
   - `LawmakingAnalysis/` – Baseline analysis specifically about cycle-time differences and outcome/rule induction for lawmaking traces.
 - `AdvancedAnalysis/` – Generation of in-data and out-of-data political context features (including Wahl-O-Mat agreement scores and topic embeddings) and the subsequent enrichment/classification analyses. See [AdvancedAnalysis pipeline](#advancedanalysis-pipeline) below.
@@ -23,14 +25,14 @@ Note that some of the documentation services provide new raw data on a daily bas
 
 See `requirements.txt`. The code was only run with Python 3; Python 2 compatibility is not guaranteed.
 
-This repository uses [Git LFS](https://git-lfs.com/) to store the large `.zip` files under `EventLogs/` and `AdvancedAnalysis/data-csv/`. Install Git LFS (`git lfs install`) **before** cloning, then clone as usual — Git LFS will transparently download the actual file contents in place of pointer files. If you already cloned without Git LFS installed, install it and run `git lfs pull` from within the repository to fetch the real files. Alternatively, you can download individual files directly from GitHub's web UI by opening the file and clicking "Download raw file", without needing Git LFS locally.
+The full version of this repository uses [Git LFS](https://git-lfs.com/) to store the large `.zip` files under `EventLogs/` and `AdvancedAnalysis/data-csv/`. The anonymous mirror cannot serve these objects, so no local Git LFS setup is required to work with it — the corresponding artifacts have to be regenerated from the raw data instead (see the note above). In the non-anonymous repository accompanying the final version of the paper, install Git LFS (`git lfs install`) **before** cloning, then clone as usual — Git LFS will transparently download the actual file contents in place of pointer files. If you already cloned without Git LFS installed, install it and run `git lfs pull` from within the repository to fetch the real files. Individual files can also be downloaded directly from GitHub's web UI by opening the file and clicking "Download raw file", without needing Git LFS locally.
 
 ## Usage / Reproducing Results
 
 1. Install dependencies from `requirements.txt`.
 2. Generate event logs, or extract the provided ones:
-   - Extract the `.xes.zip` files from `EventLogs/` into a folder `all-data-xes/`, **or**
-   - Generate new event logs with `EventLogGenerators/xes-creator-per-folder-all-types.ipynb` (for each parliament, edit the `folderPath` and `outputFilename` variables in the first cell). Use `xes-creator-per-folder-and-type.ipynb` instead if you only want a single process type (also edit the `vtyp` variable).
+   - Generate new event logs with `EventLogGenerators/xes-creator-per-folder-all-types.ipynb` (for each parliament, edit the `folderPath` and `outputFilename` variables in the first cell). Use `xes-creator-per-folder-and-type.ipynb` instead if you only want a single process type (also edit the `vtyp` variable). **This is the path to use in the anonymous repository.** Alternatively:
+   - _(final repository only)_ Extract the `.xes.zip` files from `EventLogs/` into a folder `all-data-xes/`.
 3. Explore the process types contained in the event logs with `BaselineAnalysis/type-explorer.ipynb`.
 4. Create and explore performance measure results with `BaselineAnalysis/performance-measures.ipynb`. Change the `performanceMeasure` variable to switch between measures (cycle time, inter-arrival time, frequency, variants).
 5. Filter the event logs down to lawmaking traces as needed (e.g. with PM4Py). The filtered event logs used for the lawmaking analysis below already live in `BaselineAnalysis/LawmakingAnalysis/`.
@@ -43,7 +45,7 @@ This repository uses [Git LFS](https://git-lfs.com/) to store the large `.zip` f
 
 ## AdvancedAnalysis Pipeline
 
-`AdvancedAnalysis/` runs largely independently of the baseline analysis, seeded from `data-start/` (pre-filtered Gesetzentwurf event logs per state) and the bundled Wahl-O-Mat dataset in `2025-03-26_Wahl-O-Mat-Datensaetze/`. Run the numbered notebooks in order. Note that the pre-generated `data-csv/*-with-embeddings-allTime.csv.zip` files are also stored via Git LFS (see [Requirements](#requirements)).
+`AdvancedAnalysis/` runs largely independently of the baseline analysis, seeded from `data-start/` (pre-filtered Gesetzentwurf event logs per state) and the bundled Wahl-O-Mat dataset in `2025-03-26_Wahl-O-Mat-Datensaetze/`. Run the numbered notebooks in order. Note that the pre-generated `data-csv/*-with-embeddings-allTime.csv.zip` files are also stored via Git LFS and are therefore not retrievable through the anonymous mirror (see the note above); notebook 1 regenerates them from `data-start/`.
 
 | Notebook                                                                 | Reads                                                     | Writes                                                                   |
 | ------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
