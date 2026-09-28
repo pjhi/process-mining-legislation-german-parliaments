@@ -112,55 +112,73 @@ BADEN_WUERTTEMBERG_COALITIONS = {
         "government": ["CDU"],
         "opposition": ["GRÜNE", "SPD", "FDP"],
         "agreement_score_file": "agreement_scores_bawue_projection_1984-06-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 68,
+        "opposition_seats": 58
     },
     "01.06.1988": {
         "government": ["CDU"],
         "opposition": ["GRÜNE", "SPD", "FDP"],
         "agreement_score_file": "agreement_scores_bawue_projection_1988-06-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 66,
+        "opposition_seats": 57
     },
     "01.06.1992": {
         "government": ["CDU", "SPD"],
-        "opposition": ["GRÜNE", "FDP", "REP"], # TODO: REP are not in the WahlOMat data
+        "opposition": ["GRÜNE", "FDP", "REP"], # Note: REP are not in the WahlOMat data
         "agreement_score_file": "agreement_scores_bawue_projection_1992-06-01.csv",
-        "coalition_type": "cross_ideological"
+        "coalition_type": "cross_ideological",
+        "government_seats": 110,
+        "opposition_seats": 36
     },
     "01.06.1996": {
         "government": ["CDU", "FDP"],
-        "opposition": ["GRÜNE", "SPD", "REP"], # TODO: REP are not in the WahlOMat data
+        "opposition": ["GRÜNE", "SPD", "REP"], # Note: REP are not in the WahlOMat data
         "agreement_score_file": "agreement_scores_bawue_projection_1996-06-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 83,
+        "opposition_seats": 72
     },
     "01.06.2001": {
         "government": ["CDU", "FDP"],
         "opposition": ["GRÜNE", "SPD"],
         "agreement_score_file": "agreement_scores_bawue_projection_2001-06-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 73,
+        "opposition_seats": 55
     },
     "01.06.2006": {
         "government": ["CDU", "FDP"],
         "opposition": ["GRÜNE", "SPD"],
         "agreement_score_file": "agreement_scores_bawue_projection_2006-06-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 84,
+        "opposition_seats": 55
     },
     "01.05.2011": {
         "government": ["GRÜNE", "SPD"],
         "opposition": ["CDU", "FDP"],
         "agreement_score_file": "agreement_scores_bawue_projection_2011-05-01.csv",
-        "coalition_type": "aligned"
+        "coalition_type": "aligned",
+        "government_seats": 71,
+        "opposition_seats": 67
     },
     "01.05.2016": {
         "government": ["GRÜNE", "CDU"],
         "opposition": ["SPD", "FDP", "AfD"],
         "agreement_score_file": "agreement_scores_bawue_projection_2016-05-01.csv",
-        "coalition_type": "cross_ideological" # is it though??
+        "coalition_type": "cross_ideological",
+        "government_seats": 89,
+        "opposition_seats": 54
     },
     "01.05.2021": {
         "government": ["GRÜNE", "CDU"],
         "opposition": ["SPD", "FDP", "AfD"],
         "agreement_score_file": "agreement_scores_bawue_projection_2021-05-01.csv",
-        "coalition_type": "cross_ideological" # is it though??
+        "coalition_type": "cross_ideological",
+        "government_seats": 100,
+        "opposition_seats": 54,
     },
 }
 
